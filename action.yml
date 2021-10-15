@@ -27,4 +27,4 @@ runs:
         role-to-assume: ${{ inputs.aws_role_arn }}
         web-identity-token-file: ${{ env.AWS_WEB_IDENTITY_TOKEN_FILE }}
         aws-region: ${{ inputs.aws_region }}
-        role-duration-seconds: 900
+        role-duration-seconds: ${{ inputs.role-duration-seconds }}
