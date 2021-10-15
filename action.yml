@@ -6,7 +6,7 @@ inputs:
   aws_region:
     required: true
   role-duration-seconds:
-    default: 900
+    default: 600
 
 runs:
   using: "composite"
